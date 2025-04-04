@@ -22,10 +22,10 @@ function IndexPage() {
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/">
-        <Route path="/" element={<IndexPage />} />
-        <Route path="/hono" element={<BenchmarkComparison />} />
-        <Route path="/others" element={<T1 />} />
+      <Route path="">
+        <Route index element={<IndexPage />} />
+        <Route path="hono" element={<BenchmarkComparison />} />
+        <Route path="others" element={<T1 />} />
       </Route>
     </Routes>
   </BrowserRouter>
