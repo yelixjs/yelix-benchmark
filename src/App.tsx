@@ -73,7 +73,7 @@ const BenchmarkComparison = () => {
   };
 
   return (
-    <div className="flex flex-col p-6 bg-gray-50 min-h-screen">
+    <div className="flex flex-col p-6 bg-gray-50 min-h-screen max-w-7xl mx-auto">
       <h1 className="text-3xl font-bold mb-6 text-gray-800">Yelix vs Hono Performance Benchmark</h1>
       
       {/* Key Findings */}
